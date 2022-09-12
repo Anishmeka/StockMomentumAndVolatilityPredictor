@@ -2,21 +2,21 @@ Welcome to the **Automated Finadvisor Application**, your tool
 for predicting momentum and volatility in the market in order
 to assist with your day-trading ventures.
 
-#Disclaimer Notice: 
+# Disclaimer Notice: 
 The creator of this application is not liable for any losses incurred from bad momentum or 
 volatility predictions. This application is solely designed for learning purposes. 
 
-##Message from the creator of Automated Finadvisor: 
+## Message from the creator of Automated Finadvisor: 
 This project was developed using CLion. You can find CLion 
 installation instructions here: [CLion Jetbrains Page](https://www.jetbrains.com/clion/)
 
-#Dependencies:
+# Dependencies:
 * [CMake](https://cmake.org/)
 
-#Libraries:
+# Libraries:
 * [Cinder](https://libcinder.org/)
 
-##Quick Start CMake on Linux:
+## Quick Start CMake on Linux:
 ```bash
 $ mkdir build
 $ cd build/
@@ -25,7 +25,7 @@ $ make
 $ ./nothing    
 ```
 
-#Download/Installation Instructions:
+# Download/Installation Instructions:
 1. Install Cinder onto your local machine. See download instructions
 in the section entitled "Cinder Installation Instructions".
 2. Clone github repository to your local machine.
@@ -34,13 +34,13 @@ and open project inside this folder.
 4. Congratulations. You have successfully downloaded the Automated 
 Finadvisor project.
    
-#Cinder Installation Instructions:
+# Cinder Installation Instructions:
 
-###Note: 
+### Note: 
 This guide was derived from [CS 126 Cinder Installation Guide]( 
 https://courses.grainger.illinois.edu/cs126/sp2021/notes/cinder-installation-notes/).
 If you run into setup issues, visit this site to seek further instructions.
-###Instructions:
+### Instructions:
 Ubuntu instructions can be found here: [Ubuntu Cinder Installation](https://www.libcinder.org/docs/guides/linux-notes/ubuntu.html)
 1. Download Cinder (v0.9.2) onto your platform. Create a folder entitled "Cinder" and extract the downloaded item into it.
 2. Open the Cinder folder in IDE and then build project. Do this only once to build libcinder.
@@ -48,7 +48,7 @@ Ubuntu instructions can be found here: [Ubuntu Cinder Installation](https://www.
 allow you to draw a line within the window using your mouse.
 4. Congratulations Cinder has been successfully installed onto your local machine.
 
-#Running Application:
+# Running Application:
 * This application contains two running configurations: **train-model** and **stock-data-visualizer**
 * Change the working directory by editing these configurations. Change the file path of the working directory to end with
 ~my-projects/[directory-name]. This will allow you to use relative file paths in place of absolute file paths.
@@ -56,7 +56,7 @@ allow you to draw a line within the window using your mouse.
 the training data set, train the model, and test the model. Running the **stock-data-visualizer** will render a technical
 analysis chart, candlestick charts, predictions, and price summaries in an external window.
   
-#**Analyzing Charts:**
+# **Analyzing Charts:**
 * Carefully scrutinizing the technical analysis and candlestick charts for bullish or bearish patterns or high, medium,
 or low volatilities will improve your skills as a day-trader and empower you to make quick, confident decisions.
 * A green trend line conveys a positive difference between the closing price and opening price, whereas a red line conveys
