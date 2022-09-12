@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="automated-finadvisor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automated-finadvisor-test">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Debug/automated-finadvisor-test/automated-finadvisor-test.app/Contents/MacOS/automated-finadvisor-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 automated-finadvisor-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automated-finadvisor-test/fast">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Debug/automated-finadvisor-test/automated-finadvisor-test.app/Contents/MacOS/automated-finadvisor-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 automated-finadvisor-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stock-data-visualizer">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Debug/stock-data-visualizer/stock-data-visualizer.app/Contents/MacOS/stock-data-visualizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 stock-data-visualizer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stock-data-visualizer/fast">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Debug/stock-data-visualizer/stock-data-visualizer.app/Contents/MacOS/stock-data-visualizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 stock-data-visualizer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train-model">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/train-model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 train-model"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="train-model/fast">
+				<Option output="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/train-model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 train-model/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/apps/cinder_app_main.cc">
+			<Option target="stock-data-visualizer"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/apps/train_model_main.cc">
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/data_processor.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/date.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/momentum-prediction/momentum_calculator.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/momentum-prediction/momentum_classifier.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/momentum-prediction/momentum_model.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/momentum-prediction/momentum_training_data_factory.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/volatility-prediction/volatility_calculator.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/volatility-prediction/volatility_classifier.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/volatility-prediction/volatility_model.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/core/volatility-prediction/volatility_training_data_factory.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+			<Option target="train-model"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/visualizer/automated_finadvisor_app.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/visualizer/candlestick_chart_visualizer.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/src/visualizer/technical_chart_visualizer.cc">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_data_processor.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_main.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_momentum_calculator.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_momentum_training_data_factory.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_volatility_calculator.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/tests/test_volatility_training_data_factory.cc">
+			<Option target="automated-finadvisor-test"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/samples/data/CinderApp.icns">
+			<Option target="automated-finadvisor-test"/>
+			<Option target="stock-data-visualizer"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/anishmeka/Desktop/cinder_0.9.2_mac/my-projects/final-project-Anishmeka/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
